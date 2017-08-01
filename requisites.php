@@ -7,4 +7,4 @@ $main_name = 'http://studrabota.ru';//"/projects/landingpages/otzivi";
 $donor_name = 'http://xn--d1acynfdde.xn--p1ai';
 $donor_site_name = 'Студенту.рф';
 //$main_name_corot = "BYPolit.org";
-$site_name = "Студенческая работа";
+$site_name = "Студенческие работы";
