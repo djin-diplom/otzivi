@@ -1,4 +1,3 @@
-User-Agent: *
-Disallow: /
-Allow: /177-rosdiplom_ru.html
+User-agent: *
+Allow: /
 Host: studrabota.ru

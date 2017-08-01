@@ -1,5 +1,16 @@
 <?php
 
+function rand_podstav_smv($text){
+     // $text = str_replace('х','x',$text);
+    // $text = str_replace('а','a',$text);
+   // $text = str_replace('р','p',$text);
+   $text = str_replace('о','o',$text);
+   $text = str_replace('е','e',$text);
+    //$text = str_replace('с','c',$text);
+    return $text;
+}
+
+
 $REQUEST_URI = $_SERVER['REQUEST_URI'];
 
 $contentTitle = str_replace($main_name, $donor_name, $REQUEST_URI );
@@ -49,15 +60,7 @@ $mainContent = str_replace('8-800-555-05-66: +7 (495) 987-41-36', 'Компан�
 $mainContent = str_replace('/goto.php?url=d3d3LnJvc2RpcGxvbS5ydQ==', 'http://znaniumbaza.ru/', $mainContent  );
 $mainContent = str_replace('/goto.php?url=cm9zZGlwbG9tLnJ1L3JlZmVyZXIuYXNweD9yZWY9c3R1ZGVudHU=', 'http://znaniumbaza.ru/order.php', $mainContent  );
 
-
-//$mainContent = str_replace('/engine/classes/js/', './index_files/', $mainContent  );
-//$mainContent = str_replace('/engine/classes/', './index_files/', $mainContent  );
-//$mainContent = str_replace('/templates/city-skyline/assets/css/', './index_files/', $mainContent  );
-
-
-//$mainContent = str_replace('/templates/city-skyline/assets/js/', './index_files/', $mainContent  );
-//$mainContent = str_replace('/templates/city-skyline/style/', './index_files/', $mainContent  );
-//$mainContent = str_replace('/favicon.png', './favicon.ico', $mainContent  );
+$mainContent = rand_podstav_smv($mainContent);
 
 
 echo $mainContent;
