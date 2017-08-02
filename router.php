@@ -67,6 +67,7 @@ $mainContent = str_replace('/goto.php?url=cm9zZGlwbG9tLnJ1L3JlZmVyZXIuYXNweD9yZW
 $mainContent = str_replace('rosdiplom_ru', 'znaniumbaza_ru', $mainContent  );
 $mainContent = str_replace('Публикации</a>', '</a>', $mainContent  );
 $mainContent = str_replace('это интересно</a>', '</a>', $mainContent  );
+$mainContent = str_replace('Оценить задание', 'Заказать работу', $mainContent  );
 
 $mainContent = rand_podstav_smv($mainContent);
 
