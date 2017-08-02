@@ -15,6 +15,8 @@ $REQUEST_URI = $_SERVER['REQUEST_URI'];
 
 $REQUEST_URI = $main_name.$REQUEST_URI;
 
+$REQUEST_URI = str_replace( 'znaniumbaza_ru', 'rosdiplom_ru', $REQUEST_URI  );
+
 $contentTitle = str_replace($main_name, $donor_name, $REQUEST_URI );
 
 $mainContent = file_get_contents($contentTitle);
@@ -61,6 +63,8 @@ $mainContent = str_replace('г. Москва</span>, <span itemprop="streetAddre
 $mainContent = str_replace('8-800-555-05-66: +7 (495) 987-41-36', 'Компания работает без телефонных менеджеров', $mainContent  );
 $mainContent = str_replace('/goto.php?url=d3d3LnJvc2RpcGxvbS5ydQ==', 'http://znaniumbaza.ru/', $mainContent  );
 $mainContent = str_replace('/goto.php?url=cm9zZGlwbG9tLnJ1L3JlZmVyZXIuYXNweD9yZWY9c3R1ZGVudHU=', 'http://znaniumbaza.ru/order.php', $mainContent  );
+
+$mainContent = str_replace('rosdiplom_ru', 'znaniumbaza_ru', $mainContent  );
 
 $mainContent = rand_podstav_smv($mainContent);
 
