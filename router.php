@@ -13,7 +13,7 @@ function rand_podstav_smv($text){
 
 $REQUEST_URI = $_SERVER['REQUEST_URI'];
 
- echo $REQUEST_URI;
+ echo $main_name.$REQUEST_URI;
 
 $contentTitle = str_replace($main_name, $donor_name, $REQUEST_URI );
 
