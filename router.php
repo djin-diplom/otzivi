@@ -65,8 +65,8 @@ $mainContent = str_replace('/goto.php?url=d3d3LnJvc2RpcGxvbS5ydQ==', 'http://zna
 $mainContent = str_replace('/goto.php?url=cm9zZGlwbG9tLnJ1L3JlZmVyZXIuYXNweD9yZWY9c3R1ZGVudHU=', 'http://znaniumbaza.ru/order.php', $mainContent  );
 
 $mainContent = str_replace('rosdiplom_ru', 'znaniumbaza_ru', $mainContent  );
-$mainContent = str_replace('Публикации', '', $mainContent  );
-$mainContent = str_replace('этo интeрeснo', '', $mainContent  );
+$mainContent = str_replace('Публикации</a>', '</a>', $mainContent  );
+$mainContent = str_replace('это интересно</a>', '</a>', $mainContent  );
 
 $mainContent = rand_podstav_smv($mainContent);
 
