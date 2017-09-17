@@ -1,4 +1,5 @@
 Redirect 301 /177-rosdiplom.html http://studrabota.com/
+Redirect 301 /177-znaniumbaza_ru.html http://studrabota.com/1001-znaniumbaza_ru.html
 
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
