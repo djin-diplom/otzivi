@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /1001-znaniumbaza_ru.html
-Allow: /page,1,2,1001-znaniumbaza_ru.html
 Disallow: /
 Host: studrabota.com
