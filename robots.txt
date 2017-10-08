@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /1001-vivastudent_ru.html
+Allow: /1001-bazaznanij_com.html
 Disallow: /
 Host: www.vivastudent.ru
