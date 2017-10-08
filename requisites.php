@@ -9,10 +9,10 @@ $donor_site_name = 'Студенту.рф';
 $site_name = "Студенческие работы";
 
 
-$raskrutka_site_1 = 'vivastudent.ru';
-$raskrutka_site_2 = 'Vivastudent';
-$raskrutka_site_3 = 'VIVASTUDENT.RU';
-$raskrutka_site_4 = 'vivastudent_ru';
+$raskrutka_site_1 = 'bazaznanij.com';
+$raskrutka_site_2 = 'Bazaznanij';
+$raskrutka_site_3 = 'BAZAZNANIJ.COM';
+$raskrutka_site_4 = 'bazaznanij_com';
 
 $raskrutka_site_adress = 'г. Санкт-Петербург</span>, <span itemprop="streetAddress">ул. Ленина, дом № 28, oф. 56';
 
