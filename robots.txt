@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /1001-znaniumbaza_ru.html
+Allow: /1001-vivastudent_ru.html
 Disallow: /
-Host: studrabota.com
+Host: www.vivastudent.ru
