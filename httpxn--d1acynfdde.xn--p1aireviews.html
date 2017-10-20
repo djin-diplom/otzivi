@@ -1,0 +1,624 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Отзывы о компаниях оказывающие помощь студентам</title>
+    <meta name="description" content="Отзывы о всех компаниях так называемого рефератного рынка." />
+    <meta name="keywords" content="" />
+
+    <link rel="search" type="application/opensearchdescription+xml" href="http://xn--d1acynfdde.xn--p1ai/engine/opensearch.php" title="Отзывы на Студенту.рф" />
+    <link rel="alternate" type="application/rss+xml" title="" href="http://xn--d1acynfdde.xn--p1ai/reviews/rss.xml" />
+    <script type="text/javascript" src="/engine/classes/js/jquery.js"></script>
+    <script type="text/javascript" src="/engine/classes/js/jqueryui.js"></script>
+    <script type="text/javascript" src="/engine/classes/js/dle_js.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link href="/templates/city-skyline/assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="/templates/city-skyline/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/templates/city-skyline/assets/css/bootstrap-responsive.css" rel="stylesheet" />
+
+    <link href="/templates/city-skyline/style/engine.css" rel="stylesheet" />
+    <link href="/templates/city-skyline/assets/css/city.css" rel="stylesheet" />
+    <link href="/templates/city-skyline/assets/css/jquery.jscrollpane.css" rel="stylesheet">
+    <script src="/templates/city-skyline/assets/js/m_rating.js"></script>
+    <script src="/templates/city-skyline/assets/js/d3.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700,800&subset=latin,cyrillic-ext,cyrillic,latin-ext' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" type="text/css" href="/3d-corner-ribbons.css" />
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="/templates/city-skyline/assets/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div id="loading-layer" style="display:none">Загрузка. Пожалуйста, подождите...</div>
+<script type="text/javascript">
+    <!--
+    var dle_root       = '/';
+    var dle_admin      = '';
+    var dle_login_hash = '';
+    var dle_group      = 5;
+    var dle_skin       = 'city-skyline';
+    var dle_wysiwyg    = '0';
+    var quick_wysiwyg  = '0';
+    var dle_act_lang   = ["Да", "Нет", "Ввод", "Отмена", "Сохранить", "Удалить"];
+    var menu_short     = 'Быстрое редактирование';
+    var menu_full      = 'Полное редактирование';
+    var menu_profile   = 'Просмотр профиля';
+    var menu_send      = 'Отправить сообщение';
+    var menu_uedit     = 'Админцентр';
+    var dle_info       = 'Информация';
+    var dle_confirm    = 'Подтверждение';
+    var dle_prompt     = 'Ввод информации';
+    var dle_req_field  = 'Заполните все необходимые поля';
+    var dle_del_agree  = 'Вы действительно хотите удалить? Данное действие невозможно будет отменить';
+    var dle_spam_agree = 'Вы действительно хотите отметить пользователя как спамера? Это приведет к удалению всех его комментариев';
+    var dle_complaint  = 'Укажите текст вашей жалобы для администрации:';
+    var dle_big_text   = 'Выделен слишком большой участок текста.';
+    var dle_orfo_title = 'Укажите комментарий для администрации к найденной ошибке на странице';
+    var dle_p_send     = 'Отправить';
+    var dle_p_send_ok  = 'Уведомление успешно отправлено';
+    var dle_save_ok    = 'Изменения успешно сохранены. Обновить страницу?';
+    var dle_del_news   = 'Удалить статью';
+    var allow_dle_delete_news   = false;
+    var dle_search_delay   = false;
+    var dle_search_value   = '';
+    $(function(){
+        FastSearch();
+    });
+    //-->
+</script>
+<!-- Меню навигации -->
+<header>
+    <div data-spy="affix" data-offset-top="368" class="visible-desktop navbar navbar-default navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="brand pt25" href="/">Студенту.рф</a>
+                <ul class="nav pt">
+                    <li>
+                        <a href="/reviews/">Все компании</a>
+                    </li>
+
+                    <li class="dropdown">
+                        <a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Рейтинг <b class="caret"></b></a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/company-rating.html">Общий рейтинг</a></li>
+                            <li><hr></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/rating-time.html">Сроки исполнения</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/rating-originality.html">Оригинальность</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/rating-price.html">Стоимость</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/rating-revised.html">Качество работ</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/articles/">Публикации</a>
+                    </li>
+                </ul>
+                <div class="search-form pull-right">
+                    <form  method="post" action="" class="search">
+                        <input type="hidden" name="do" value="search" />
+                        <input type="hidden" name="subaction" value="search" />
+                        <input id="story" name="story"  class="searchTerm" placeholder="Поиск по сайту ..." />
+                        <input class="searchButton" type="submit" /><span class="searchIcon entypo-search"></span>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Меню навигации для мобильной версии-->
+    <div class="jumbotron-mob hidden-desktop">
+        <div class="container">
+            <a class="brand pt25" href="#">Студенту.рф</a>
+            <div class="speedbar"><span id="dle-speedbar"><span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="http://xn--d1acynfdde.xn--p1ai/" itemprop="url"><span itemprop="title">Отзывы на Студенту.рф</span></a></span> &raquo; <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="http://xn--d1acynfdde.xn--p1ai/reviews/" itemprop="url"><span itemprop="title">Отзывы о компаниях</span></a></span></span></div>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="row-fluid">
+
+
+
+
+
+
+
+
+        <div class="span12">﻿<div class="container">
+            <div class="sep">
+                <div class="col-sm-4">
+                    <h2 class="short"><a href="http://xn--d1acynfdde.xn--p1ai/177-rosdiplom_ru.html">Росдиплом (Rosdiplom.ru)</a></h2>
+                    <a href="http://xn--d1acynfdde.xn--p1ai/177-rosdiplom_ru.html"><div class="m20"> <img src="/fi/rosdiplom.ru.jpg" alt="Росдиплом (Rosdiplom.ru)" title="Росдиплом (Rosdiplom.ru)" /></div></a>
+                </div>
+                <div class="col-sm-3">
+                    <div class="general-widget" style="margin-top: 40px;">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 97,6%">
+                                <span>Цены</span>
+                                <i class="pull-right ratinfo">4.88</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 92%">
+                                <span>Сроки</span>
+                                <i class="pull-right ratinfo">4.6</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 98%">
+                                <span>Доработки</span>
+                                <i class="pull-right ratinfo">4.9</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 96%">
+                                <span>Оригинальность</span>
+                                <i class="pull-right ratinfo">4.8</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-sm-3 rating-value">
+                    Общий рейтинг компании<br />
+                    <span> 4.9 </span>
+                </div>
+
+                <div class="col-sm-12">
+
+                    <p class="story ">Росдиплом &ndash; лидирующий и старейший образовательный портал на просторах российского интернета. Аудитория портала превышает 10 тысяч посетителей. ВУЗы всех городов России, стран СНГ &ndash; это и есть география компании &laquo;Росдиплом&raquo;. Единственная компания помогающая студентам иностранных вузов....</p>
+                    <a class="btn btn-info" href="http://xn--d1acynfdde.xn--p1ai/177-rosdiplom_ru.html">Подробнее  <span class="entypo-comment active"></span> 55</a>
+                    <hr class="soften">
+                </div>
+            </div>
+        </div>﻿<div class="container">
+            <div class="sep">
+                <div class="col-sm-4">
+                    <h2 class="short"><a href="http://xn--d1acynfdde.xn--p1ai/8-besmarter_ru.html">Бисмартер (Бesmarter)</a></h2>
+                    <a href="http://xn--d1acynfdde.xn--p1ai/8-besmarter_ru.html"><div class="m20"> <img src="/fi/besmarter.ru.jpg" alt="Бисмартер (Бesmarter)" title="Бисмартер (Бesmarter)" /></div></a>
+                </div>
+                <div class="col-sm-3">
+                    <div class="general-widget" style="margin-top: 40px;">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 39,6%">
+                                <span>Цены</span>
+                                <i class="pull-right ratinfo">1.98</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 39,6%">
+                                <span>Сроки</span>
+                                <i class="pull-right ratinfo">1.98</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 39,6%">
+                                <span>Доработки</span>
+                                <i class="pull-right ratinfo">1.98</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 52,8%">
+                                <span>Оригинальность</span>
+                                <i class="pull-right ratinfo">2.64</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-sm-3 rating-value">
+                    Общий рейтинг компании<br />
+                    <span> 4.8 </span>
+                </div>
+
+                <div class="col-sm-12">
+
+                    <p class="story ">Компания "BeSmarter" работает на рынке образовательных услуг с 2004 года, официальная регистрация проверена. Компания занимается написанием студенческих работ на заказ (например, рефераты, курсовые, дипломы и т.д.)...</p>
+                    <a class="btn btn-info" href="http://xn--d1acynfdde.xn--p1ai/8-besmarter_ru.html">Подробнее  <span class="entypo-comment active"></span> 81</a>
+                    <hr class="soften">
+                </div>
+            </div>
+        </div>﻿<div class="container">
+            <div class="sep">
+                <div class="col-sm-4">
+                    <h2 class="short"><a href="http://xn--d1acynfdde.xn--p1ai/110-diplomtime_ru_com.html">Дипломтайм (Diplomtime)</a></h2>
+                    <a href="http://xn--d1acynfdde.xn--p1ai/110-diplomtime_ru_com.html"><div class="m20"> <img src="/fi/www.diplomtime.com.jpg" alt="Дипломтайм (Diplomtime)" title="Дипломтайм (Diplomtime)" /></div></a>
+                </div>
+                <div class="col-sm-3">
+                    <div class="general-widget" style="margin-top: 40px;">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 86,6%">
+                                <span>Цены</span>
+                                <i class="pull-right ratinfo">4.33</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 91%">
+                                <span>Сроки</span>
+                                <i class="pull-right ratinfo">4.55</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 84,2%">
+                                <span>Доработки</span>
+                                <i class="pull-right ratinfo">4.21</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 84,6%">
+                                <span>Оригинальность</span>
+                                <i class="pull-right ratinfo">4.23</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-sm-3 rating-value">
+                    Общий рейтинг компании<br />
+                    <span> 4.8 </span>
+                </div>
+
+                <div class="col-sm-12">
+
+                    <p class="story ">Если Вы ищите достойного автора для своей работы, то компания DiplomTime то, что вам нужно. За короткое время у компании скопилась достаточно большая база многих преподавателей ВУЗов....</p>
+                    <a class="btn btn-info" href="http://xn--d1acynfdde.xn--p1ai/110-diplomtime_ru_com.html">Подробнее  <span class="entypo-comment active"></span> 192</a>
+                    <hr class="soften">
+                </div>
+            </div>
+        </div>﻿<div class="container">
+            <div class="sep">
+                <div class="col-sm-4">
+                    <h2 class="short"><a href="http://xn--d1acynfdde.xn--p1ai/84-work5.html">Work5 (ворк5)</a></h2>
+                    <a href="http://xn--d1acynfdde.xn--p1ai/84-work5.html"><div class="m20"> <img src="/fi/www.work5.ru.jpg" alt="Work5 (ворк5)" title="Work5 (ворк5)" /></div></a>
+                </div>
+                <div class="col-sm-3">
+                    <div class="general-widget" style="margin-top: 40px;">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 64%">
+                                <span>Цены</span>
+                                <i class="pull-right ratinfo">3.2</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 48%">
+                                <span>Сроки</span>
+                                <i class="pull-right ratinfo">2.4</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 64%">
+                                <span>Доработки</span>
+                                <i class="pull-right ratinfo">3.2</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 80%">
+                                <span>Оригинальность</span>
+                                <i class="pull-right ratinfo">4</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-sm-3 rating-value">
+                    Общий рейтинг компании<br />
+                    <span> 4.7 </span>
+                </div>
+
+                <div class="col-sm-12">
+
+                    <p class="story ">Компания "Ворк5 (Work5)" работает на рынке образовательных услуг с 2005 года, официальная регистрация проверена. Компания занимается написанием студенческих работ на заказ (например, рефераты, курсовые, дипломы и т.д.)...</p>
+                    <a class="btn btn-info" href="http://xn--d1acynfdde.xn--p1ai/84-work5.html">Подробнее  <span class="entypo-comment active"></span> 98</a>
+                    <hr class="soften">
+                </div>
+            </div>
+        </div>﻿<div class="container">
+            <div class="sep">
+                <div class="col-sm-4">
+                    <h2 class="short"><a href="http://xn--d1acynfdde.xn--p1ai/125-zachteno_ru.html">Зачтено (Zachteno)</a></h2>
+                    <a href="http://xn--d1acynfdde.xn--p1ai/125-zachteno_ru.html"><div class="m20"> <img src="/fi/www.zachteno.ru.jpg" alt="Зачтено (Zachteno)" title="Зачтено (Zachteno)" /></div></a>
+                </div>
+                <div class="col-sm-3">
+                    <div class="general-widget" style="margin-top: 40px;">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 68,25%">
+                                <span>Цены</span>
+                                <i class="pull-right ratinfo">3.4125</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 97,5%">
+                                <span>Сроки</span>
+                                <i class="pull-right ratinfo">4.875</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 78%">
+                                <span>Доработки</span>
+                                <i class="pull-right ratinfo">3.9</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 58,5%">
+                                <span>Оригинальность</span>
+                                <i class="pull-right ratinfo">2.925</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-sm-3 rating-value">
+                    Общий рейтинг компании<br />
+                    <span> 4.7 </span>
+                </div>
+
+                <div class="col-sm-12">
+
+                    <p class="story ">Компания "Зачтено (Zachteno)" работает на рынке образовательных услуг с 1999 года, официальная регистрация проверена. Компания занимается написанием студенческих работ на заказ (например, рефераты, курсовые, дипломы и т.д.)...</p>
+                    <a class="btn btn-info" href="http://xn--d1acynfdde.xn--p1ai/125-zachteno_ru.html">Подробнее  <span class="entypo-comment active"></span> 11</a>
+                    <hr class="soften">
+                </div>
+            </div>
+        </div>﻿<div class="container">
+            <div class="sep">
+                <div class="col-sm-4">
+                    <h2 class="short"><a href="http://xn--d1acynfdde.xn--p1ai/109-diplomservice_ru.html">Diplomservice (Дипломсервис)</a></h2>
+                    <a href="http://xn--d1acynfdde.xn--p1ai/109-diplomservice_ru.html"><div class="m20"> <img src="/fi/www.diplomservice.ru.jpg" alt="Diplomservice (Дипломсервис)" title="Diplomservice (Дипломсервис)" /></div></a>
+                </div>
+                <div class="col-sm-3">
+                    <div class="general-widget" style="margin-top: 40px;">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 96%">
+                                <span>Цены</span>
+                                <i class="pull-right ratinfo">4.8</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 76,8%">
+                                <span>Сроки</span>
+                                <i class="pull-right ratinfo">3.84</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 96%">
+                                <span>Доработки</span>
+                                <i class="pull-right ratinfo">4.8</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 96%">
+                                <span>Оригинальность</span>
+                                <i class="pull-right ratinfo">4.8</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-sm-3 rating-value">
+                    Общий рейтинг компании<br />
+                    <span> 4.4 </span>
+                </div>
+
+                <div class="col-sm-12">
+
+                    <p class="story ">Компания "ДипломСервис (DiplomService)" работает на рынке образовательных услуг с 2008 года, официальная регистрация проверена. Компания занимается написанием студенческих работ на заказ (например, рефераты, курсовые, дипломы и т.д.)...</p>
+                    <a class="btn btn-info" href="http://xn--d1acynfdde.xn--p1ai/109-diplomservice_ru.html">Подробнее  <span class="entypo-comment active"></span> 5</a>
+                    <hr class="soften">
+                </div>
+            </div>
+        </div>﻿<div class="container">
+            <div class="sep">
+                <div class="col-sm-4">
+                    <h2 class="short"><a href="http://xn--d1acynfdde.xn--p1ai/421-multiwork_org.html">Мультиворк (multiwork.org)</a></h2>
+                    <a href="http://xn--d1acynfdde.xn--p1ai/421-multiwork_org.html"><div class="m20"> <img src="/fi/www.multiwork.org.jpg" alt="Мультиворк (multiwork.org)" title="Мультиворк (multiwork.org)" /></div></a>
+                </div>
+                <div class="col-sm-3">
+                    <div class="general-widget" style="margin-top: 40px;">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 78%">
+                                <span>Цены</span>
+                                <i class="pull-right ratinfo">3.9</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 76%">
+                                <span>Сроки</span>
+                                <i class="pull-right ratinfo">3.8</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 84%">
+                                <span>Доработки</span>
+                                <i class="pull-right ratinfo">4.2</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 70%">
+                                <span>Оригинальность</span>
+                                <i class="pull-right ratinfo">3.5</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-sm-3 rating-value">
+                    Общий рейтинг компании<br />
+                    <span> 4.4 </span>
+                </div>
+
+                <div class="col-sm-12">
+
+                    <p class="story ">Компания "Мультиворк" работает на рынке образовательных услуг с 2004 года, официальная регистрация проверена. Компания занимается написанием студенческих работ на заказ (например, рефераты, курсовые, дипломы и т.д.)...</p>
+                    <a class="btn btn-info" href="http://xn--d1acynfdde.xn--p1ai/421-multiwork_org.html">Подробнее  <span class="entypo-comment active"></span> 49</a>
+                    <hr class="soften">
+                </div>
+            </div>
+        </div>﻿<div class="container">
+            <div class="sep">
+                <div class="col-sm-4">
+                    <h2 class="short"><a href="http://xn--d1acynfdde.xn--p1ai/206-homework_ru.html">ХомВорк (HomeWork)</a></h2>
+                    <a href="http://xn--d1acynfdde.xn--p1ai/206-homework_ru.html"><div class="m20"> <img src="/fi/www.homework.ru.jpg" alt="ХомВорк (HomeWork)" title="ХомВорк (HomeWork)" /></div></a>
+                </div>
+                <div class="col-sm-3">
+                    <div class="general-widget" style="margin-top: 40px;">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 48%">
+                                <span>Цены</span>
+                                <i class="pull-right ratinfo">2.4</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 64%">
+                                <span>Сроки</span>
+                                <i class="pull-right ratinfo">3.2</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 64%">
+                                <span>Доработки</span>
+                                <i class="pull-right ratinfo">3.2</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 80%">
+                                <span>Оригинальность</span>
+                                <i class="pull-right ratinfo">4</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-sm-3 rating-value">
+                    Общий рейтинг компании<br />
+                    <span> 4.3 </span>
+                </div>
+
+                <div class="col-sm-12">
+
+                    <p class="story ">Компания Homework – официальная организации, которая с 2001 года работает в сфере науки и образования. В Homework работают профессионалы своего дела, преподаватели из разных городов России. Мы не просто пишем работы, мы решаем творческие задачи. Каждая работа уникальна....</p>
+                    <a class="btn btn-info" href="http://xn--d1acynfdde.xn--p1ai/206-homework_ru.html">Подробнее  <span class="entypo-comment active"></span> 280</a>
+                    <hr class="soften">
+                </div>
+            </div>
+        </div>﻿<div class="container">
+            <div class="sep">
+                <div class="col-sm-4">
+                    <h2 class="short"><a href="http://xn--d1acynfdde.xn--p1ai/122-zaochnik_com_ru.html">Zaochnik (Заочник)</a></h2>
+                    <a href="http://xn--d1acynfdde.xn--p1ai/122-zaochnik_com_ru.html"><div class="m20"> <img src="/fi/www.zaochnik.com.jpg" alt="Zaochnik (Заочник)" title="Zaochnik (Заочник)" /></div></a>
+                </div>
+                <div class="col-sm-3">
+                    <div class="general-widget" style="margin-top: 40px;">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 51,6%">
+                                <span>Цены</span>
+                                <i class="pull-right ratinfo">2.58</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 86%">
+                                <span>Сроки</span>
+                                <i class="pull-right ratinfo">4.3</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 86%">
+                                <span>Доработки</span>
+                                <i class="pull-right ratinfo">4.3</i>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 68,8%">
+                                <span>Оригинальность</span>
+                                <i class="pull-right ratinfo">3.44</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-sm-3 rating-value">
+                    Общий рейтинг компании<br />
+                    <span> 4.2 </span>
+                </div>
+
+                <div class="col-sm-12">
+
+                    <p class="story ">Компания Zaochnik.com создана в 2000 году и сейчас является одной из первых отечественных компаний в сфере написания работ на заказ. За это время мы смогли помочь многим нашим клиентам на отлично сдать курсовые, дипломы, контрольные работы, докторские, диссертации. Компания не просто выполняет вашу работу, но что не менее важно несёт за это юридическую ответственность....</p>
+                    <a class="btn btn-info" href="http://xn--d1acynfdde.xn--p1ai/122-zaochnik_com_ru.html">Подробнее  <span class="entypo-comment active"></span> 233</a>
+                    <hr class="soften">
+                </div>
+            </div>
+        </div>﻿<div class="container">
+            <div class="pages"><span>Назад</span>  <span>1</span> <a href="http://xn--d1acynfdde.xn--p1ai/reviews/page/2/">2</a> <a href="http://xn--d1acynfdde.xn--p1ai/reviews/page/3/">3</a> <a href="http://xn--d1acynfdde.xn--p1ai/reviews/page/4/">4</a> <a href="http://xn--d1acynfdde.xn--p1ai/reviews/page/5/">5</a> <a href="http://xn--d1acynfdde.xn--p1ai/reviews/page/6/">6</a> <a href="http://xn--d1acynfdde.xn--p1ai/reviews/page/7/">7</a> <a href="http://xn--d1acynfdde.xn--p1ai/reviews/page/8/">8</a> <a href="http://xn--d1acynfdde.xn--p1ai/reviews/page/9/">9</a> <a href="http://xn--d1acynfdde.xn--p1ai/reviews/page/10/">10</a> <span class="nav_ext">...</span> <a href="http://xn--d1acynfdde.xn--p1ai/reviews/page/23/">23</a>  <a href="http://xn--d1acynfdde.xn--p1ai/reviews/page/2/">Вперед</a></div>
+        </div></div>
+
+
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span8">
+                <a href="#">
+                    <h4>Студенту.рф</h4>
+                </a>
+                <ul class="footer-links">
+
+                </ul>
+                <p >Целью создания нашего сайта было желание рассказать всем студентам о рефератных компаниях, их уловках и качестве сервиса. Дать объективную оценку. Комментарии пишутся теми кто лично сотрудничал с подобными фирмами и желает поделиться своим печальным или наоборот приятным.</p>
+                <p>&copy; 2017 Студенту.рф<br /> <br />
+
+                    <a href="/all-company.html">карта сайта</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="/interesting.html">это интересно</a>
+
+                </p>
+            </div>
+            <div class="span4">
+                <!-- Yandex.Metrika counter -->
+                <script type="text/javascript">
+                    (function (d, w, c) {
+                        (w[c] = w[c] || []).push(function() {
+                            try {
+                                w.yaCounter25631243 = new Ya.Metrika({id:25631243,
+                                    clickmap:true,
+                                    trackLinks:true,
+                                    accurateTrackBounce:true});
+                            } catch(e) { }
+                        });
+
+                        var n = d.getElementsByTagName("script")[0],
+                                s = d.createElement("script"),
+                                f = function () { n.parentNode.insertBefore(s, n); };
+                        s.type = "text/javascript";
+                        s.async = true;
+                        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+                        if (w.opera == "[object Opera]") {
+                            d.addEventListener("DOMContentLoaded", f, false);
+                        } else { f(); }
+                    })(document, window, "yandex_metrika_callbacks");
+                </script>
+                <noscript><div><img src="//mc.yandex.ru/watch/25631243" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+                <!-- /Yandex.Metrika counter -->
+                <!--LiveInternet counter--><script type="text/javascript"><!--
+            document.write("<a href='//www.liveinternet.ru/click' "+
+                    "target=_blank><img src='//counter.yadro.ru/hit?t44.10;r"+
+                    escape(document.referrer)+((typeof(screen)=="undefined")?"":
+                    ";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+                            screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+                    ";"+Math.random()+
+                    "' alt='' title='LiveInternet' "+
+                    "border='0' width='31' height='31'><\/a>")
+            //--></script><!--/LiveInternet-->
+
+                <!-- Rating@Mail.ru counter -->
+                <script type="text/javascript">
+                    var _tmr = window._tmr || (window._tmr = []);
+                    _tmr.push({id: "2930408", type: "pageView", start: (new Date()).getTime()});
+                    (function (d, w, id) {
+                        if (d.getElementById(id)) return;
+                        var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+                        ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+                        var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+                        if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+                    })(document, window, "topmailru-code");
+                </script><noscript><div>
+                <img src="//top-fwz1.mail.ru/counter?id=2930408;js=na" style="border:0;position:absolute;left:-9999px;" alt="" />
+            </div></noscript>
+                <!-- //Rating@Mail.ru counter -->               </div>
+        </div>
+    </div>
+</footer>
+<section><script src="/templates/city-skyline/assets/js/bootstrap.min.js"></script>
+</section>
+</body>
+</html>

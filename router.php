@@ -35,6 +35,12 @@ switch($contentTitle) {
     case 'http://xn--d1acynfdde.xn--p1ai/':
         $mainContent = file_get_contents('httpxn--d1acynfdde.xn--p1ai.html');
         break;
+    case 'http://xn--d1acynfdde.xn--p1ai/reviews/':
+        $mainContent = file_get_contents('httpxn--d1acynfdde.xn--p1aireviews.html');
+        break;
+    case 'http://vivastudent.ru/company-rating.html':
+        $mainContent = file_get_contents('httpvivastudent.rucompany-rating.html');
+        break;
     default:
         $mainContent = file_get_contents($contentTitle);
         break;
