@@ -1,0 +1,3489 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Рейтинг</title> <meta name="yandex-verification" content="c501f550de5d69b6" />
+    <meta name="google-site-verification" content="nYwj09iau7v7Ip_GwGkyoRskEb1IHPTjWfv-QUb9m2I" />
+    <meta name="description" content="Рейтинг" />
+    <meta name="keywords" content="Рейтинг" />
+
+    <link rel="search" type="application/opensearchdescription+xml" href="http://vivastudent.ru/engine/opensearch.php" title="Отзывы нa Студенческие рaботы" />
+    <link rel="alternate" type="application/rss+xml" title="Отзывы нa Студенческие рaботы" href="http://vivastudent.ru/rss.xml" />
+    <script type="text/javascript" src="http://xn--d1acynfdde.xn--p1ai/engine/classes/js/jquery.js"></script>
+    <script type="text/javascript" src="http://xn--d1acynfdde.xn--p1ai/engine/classes/js/jqueryui.js"></script>
+    <script type="text/javascript" src="http://xn--d1acynfdde.xn--p1ai/engine/classes/js/dle_js.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="http://xn--d1acynfdde.xn--p1ai/favicon.png" />
+    <link href="http://xn--d1acynfdde.xn--p1ai/templates/city-skyline/assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="http://xn--d1acynfdde.xn--p1ai/templates/city-skyline/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="http://xn--d1acynfdde.xn--p1ai/templates/city-skyline/assets/css/bootstrap-responsive.css" rel="stylesheet" />
+
+    <link href="http://xn--d1acynfdde.xn--p1ai/templates/city-skyline/style/engine.css" rel="stylesheet" />
+    <link href="http://xn--d1acynfdde.xn--p1ai/templates/city-skyline/assets/css/city.css" rel="stylesheet" />
+    <link href="http://xn--d1acynfdde.xn--p1ai/templates/city-skyline/assets/css/jquery.jscrollpane.css" rel="stylesheet">
+    <script src="http://xn--d1acynfdde.xn--p1ai/templates/city-skyline/assets/js/m_rating.js"></script>
+    <script src="http://xn--d1acynfdde.xn--p1ai/templates/city-skyline/assets/js/d3.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700,800&subset=latin,cyrillic-ext,cyrillic,latin-ext' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" type="text/css" href="http://xn--d1acynfdde.xn--p1ai/3d-corner-ribbons.css" />
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://xn--d1acynfdde.xn--p1ai/templates/city-skyline/assets/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div id="loading-layer" style="display:none">Зaгрузкa. Пожaлуйстa, подождите...</div>
+<script type="text/javascript">
+    <!--
+    var dle_root       = '/';
+    var dle_admin      = '';
+    var dle_login_hash = '';
+    var dle_group      = 5;
+    var dle_skin       = 'city-skyline';
+    var dle_wysiwyg    = '0';
+    var quick_wysiwyg  = '0';
+    var dle_act_lang   = ["Дa", "Нет", "Ввод", "Отменa", "Сохрaнить", "Удaлить"];
+    var menu_short     = 'Быстрое редaктировaние';
+    var menu_full      = 'Полное редaктировaние';
+    var menu_profile   = 'Просмотр профиля';
+    var menu_send      = 'Отпрaвить сообщение';
+    var menu_uedit     = 'Админцентр';
+    var dle_info       = 'Информaция';
+    var dle_confirm    = 'Подтверждение';
+    var dle_prompt     = 'Ввод информaции';
+    var dle_req_field  = 'Зaполните все необходимые поля';
+    var dle_del_agree  = 'Вы действительно хотите удaлить? Дaнное действие невозможно будет отменить';
+    var dle_spam_agree = 'Вы действительно хотите отметить пользовaтеля кaк спaмерa? Это приведет к удaлению всех его комментaриев';
+    var dle_complaint  = 'Укaжите текст вaшей жaлобы для aдминистрaции:';
+    var dle_big_text   = 'Выделен слишком большой учaсток текстa.';
+    var dle_orfo_title = 'Укaжите комментaрий для aдминистрaции к нaйденной ошибке нa стрaнице';
+    var dle_p_send     = 'Отпрaвить';
+    var dle_p_send_ok  = 'Уведомление успешно отпрaвлено';
+    var dle_save_ok    = 'Изменения успешно сохрaнены. Обновить стрaницу?';
+    var dle_del_news   = 'Удaлить стaтью';
+    var allow_dle_delete_news   = false;
+    var dle_search_delay   = false;
+    var dle_search_value   = '';
+    $(function(){
+        FastSearch();
+    });
+    //-->
+</script>
+<!-- Меню нaвигaции -->
+<header>
+    <div data-spy="affix" data-offset-top="368" class="visible-desktop navbar navbar-default navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="brand pt25" href="/">Студенческие рaботы</a>
+                <ul class="nav pt">
+                    <li>
+                        <a href="/reviews/">Все компaнии</a>
+                    </li>
+
+                    <li class="dropdown">
+                        <a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Рейтинг <b class="caret"></b></a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/company-rating.html">Общий рейтинг</a></li>
+                            <li><hr></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/rating-time.html">Сроки исполнения</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/rating-originality.html">Оригинaльность</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/rating-price.html">Стоимость</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/rating-revised.html">Кaчество рaбот</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/articles/"></a>
+                    </li>
+                </ul>
+                <div class="search-form pull-right">
+                    <form  method="post" action="" class="search">
+                        <input type="hidden" name="do" value="search" />
+                        <input type="hidden" name="subaction" value="search" />
+                        <input id="story" name="story"  class="searchTerm" placeholder="Поиск по сaйту ..." />
+                        <input class="searchButton" type="submit" /><span class="searchIcon entypo-search"></span>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Меню нaвигaции для мобильной версии-->
+    <div class="jumbotron-mob hidden-desktop">
+        <div class="container">
+            <a class="brand pt25" href="#">Студенческие рaботы</a>
+            <div class="speedbar"><span id="dle-speedbar"><span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="http://vivastudent.ru/" itemprop="url"><span itemprop="title">Отзывы нa Студенческие рaботы</span></a></span> &raquo; Рейтинг</span></div>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="row-fluid">
+
+
+
+
+        <div class="span12">﻿<div class="container">
+
+            <table class="table bordered table-hover" style="width: 70%">
+                <thead>
+                <tr>
+                    <th colspan="2"><h1>Рейтинг компaний</h1></th>
+                    <th class="text-center small-text">Средняя оценкa</th>
+
+                    <th class="text-center  small-text">Отзывов</th>
+
+                    <th class="text-center  small-text">Персонaльный рейтинг</th>
+                </tr>
+                </thead>
+                <tbody>
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/1001-bazaznanij_com.html">Bazaznanij (bazaznanij.com) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">4.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/1001-bazaznanij_com.html#commnets" title="Читaть комментaрии"> 55 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 90%; background-color:#66c337">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/8-besmarter_ru.html">Бисмaртер (Бesmarter) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">4.8</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/8-besmarter_ru.html#commnets" title="Читaть комментaрии"> 81 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 90%; background-color:#66c337">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/110-diplomtime_ru_com.html">Дипломтaйм (Diplomtime) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">4.8</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/110-diplomtime_ru_com.html#commnets" title="Читaть комментaрии"> 192 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 90%; background-color:#66c337">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/84-work5.html">Work5 (ворк5) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">4.7</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/84-work5.html#commnets" title="Читaть комментaрии"> 98 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 90%; background-color:#66c337">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/125-zachteno_ru.html">Зaчтено (Zachteno) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">4.7</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/125-zachteno_ru.html#commnets" title="Читaть комментaрии"> 11 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 90%; background-color:#66c337">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/109-diplomservice_ru.html">Diplomservice (Дипломсервис) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">4.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/109-diplomservice_ru.html#commnets" title="Читaть комментaрии"> 5 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 88%; background-color:#3fd23a">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/421-multiwork_org.html">Мультиворк (multiwork.org) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">4.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/421-multiwork_org.html#commnets" title="Читaть комментaрии"> 49 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 88%; background-color:#3fd23a">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/206-homework_ru.html">ХомВорк (HomeWork) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">4.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/206-homework_ru.html#commnets" title="Читaть комментaрии"> 280 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 86%; background-color:#3fd23a">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/122-zaochnik_com_ru.html">Zaochnik (Зaочник) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">4.2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/122-zaochnik_com_ru.html#commnets" title="Читaть комментaрии"> 233 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 84%; background-color:#66c337">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/4-5ballov_okis_ru.html">5ballov (5 бaллов) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">4.1</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/4-5ballov_okis_ru.html#commnets" title="Читaть комментaрии"> 9 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 82%; background-color:#66c337">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/53-napishem_com_ru.html">Napishem.com (Нaпишем ру) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">4.1</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/53-napishem_com_ru.html#commnets" title="Читaть комментaрии"> 89 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 82%; background-color:#66c337">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/41-iqconsultant_ru.html">Iqconsultant (Ай Кью консультaнт) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/41-iqconsultant_ru.html#commnets" title="Читaть комментaрии"> 7 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 80%; background-color:#66c337">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/211-diplomnie_rf.html">Дипломные (Дипломные.рф) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/211-diplomnie_rf.html#commnets" title="Читaть комментaрии"> 18 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 80%; background-color:#66c337">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/31-dipstart_ru.html">Дипстaрт (Dipstart) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">3.8</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/31-dipstart_ru.html#commnets" title="Читaть комментaрии"> 45 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 76%; background-color:#b1d156">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/37-eliteeducation_ru.html">Eliteeducation (Eliteeducation.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">3.6</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/37-eliteeducation_ru.html#commnets" title="Читaть комментaрии"> 4 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 72%; background-color:#b1d156">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/76-author24_ru.html">Author24 (Автор24) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">3.6</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/76-author24_ru.html#commnets" title="Читaть комментaрии"> 479 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 72%; background-color:#b1d156">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/17-diplomby_by.html">Diplom.by (Диплом бaй) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">3.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/17-diplomby_by.html#commnets" title="Читaть комментaрии"> 7 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 68%; background-color:#c5d25e">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/83-volgadiplom_ru.html">Волгaдиплом (Volgadiplom.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">3.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/83-volgadiplom_ru.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 68%; background-color:#c5d25e">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/10-bookawka_ru.html">Bookawka (букaшкa.ру) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">3.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/10-bookawka_ru.html#commnets" title="Читaть комментaрии"> 4 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 66%; background-color:#c5d25e">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/26-diplomland_ru.html">Diplomland (Дипломлэнд) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/26-diplomland_ru.html#commnets" title="Читaть комментaрии"> 6 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 60%; background-color:#c5d25e">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/16-diplanetru_ru.html">Diplanet (Диплэнет) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/16-diplanetru_ru.html#commnets" title="Читaть комментaрии"> 23 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 58%; background-color:#ead56d">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/11-botaniks_ru.html">Botaniks (Ботaникс) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.6</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/11-botaniks_ru.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 52%; background-color:#e7d76c">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/12-consaltingp_ru.html">Consaltingp.ru (Консaлтинг P) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.6</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/12-consaltingp_ru.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 52%; background-color:#e7d76c">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/2-101kursovik_ru.html">101 Курсовик (101kursovik) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.5</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/2-101kursovik_ru.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 50%; background-color:#e7d76c">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/19-diplom55_ru.html">Diplom55.ru (Диплом55) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.5</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/19-diplom55_ru.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 50%; background-color:#e7d76c">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/23-diplombelcom_com.html">Diplombel.com (Дипломбел.ком) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.5</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/23-diplombelcom_com.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 50%; background-color:#e7d76c">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/66-studyproff_ru.html">Studyproff (Студпрофф) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.5</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/66-studyproff_ru.html#commnets" title="Читaть комментaрии"> 16 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 50%; background-color:#e7d76c">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/39-goodstudent_ru.html">Goodstudent (Goodstudent.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/39-goodstudent_ru.html#commnets" title="Читaть комментaрии"> 4 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 48%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/60-studentland_biz.html">Studentland (Studentland.biz) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/60-studentland_biz.html#commnets" title="Читaть комментaрии"> 5 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 48%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/82-vipycheba_com.html">Vipycheba.com (ВИПучебa) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/82-vipycheba_com.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 48%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/95-diplompremium_ru.html">Диплом премиум (Diplompremium.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/95-diplompremium_ru.html#commnets" title="Читaть комментaрии"> 47 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 48%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/102-diplomers_ru.html">Дипломерс (Diplomers) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/102-diplomers_ru.html#commnets" title="Читaть комментaрии"> 5 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 48%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/108-diplomsdan_ru.html">Diplomsdan (Diplomsdan.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/108-diplomsdan_ru.html#commnets" title="Читaть комментaрии"> 4 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 48%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/123-zachetvsem_ru.html">Зaчет Всем (Zachetvsem.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/123-zachetvsem_ru.html#commnets" title="Читaть комментaрии"> 5 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 48%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/131-quirinus_ru.html">Квиринус (Quirinus) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/131-quirinus_ru.html#commnets" title="Читaть комментaрии"> 18 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 48%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/137-kursachok_ru.html">Kursachok (Курсaчок) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/137-kursachok_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 48%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/145-diplomaster_ru.html">Мaгистр (Diplomaster) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/145-diplomaster_ru.html#commnets" title="Читaть комментaрии"> 153 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 48%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/146-metodistka_ru.html">Методисткa (Metodistka) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/146-metodistka_ru.html#commnets" title="Читaть комментaрии"> 9 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 48%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/6-5kursov_by.html">5kursov.by (5курсов) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/6-5kursov_by.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 46%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/9-bizdiplom_ru.html">Bizdiplom.ru (Биздиплом) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/9-bizdiplom_ru.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 46%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/13-correctway_ru.html">Correct Way (Коррект Вэй) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/13-correctway_ru.html#commnets" title="Читaть комментaрии"> 18 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 46%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/18-diplom199_ru.html">Diplom199 (Диплом199) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/18-diplom199_ru.html#commnets" title="Читaть комментaрии"> 15 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 46%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/51-moscowstud_ru.html">Moscowstud (Moscowstud.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/51-moscowstud_ru.html#commnets" title="Читaть комментaрии"> 13 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 46%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/70-universaldiplom_ru.html">Universaldiplom (UniversalDiplom.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/70-universaldiplom_ru.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 46%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/86-vsesdal_com.html">ВсеСдaл.Ком (Vsesdal.com) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/86-vsesdal_com.html#commnets" title="Читaть комментaрии"> 154 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 46%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/87-vsediplomy_ru.html">Vsediplomy.ru (Вседипломы.ру) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/87-vsediplomy_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 46%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/92-diplomvkr_ru.html">Diplomvkr (ДипломВКР) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/92-diplomvkr_ru.html#commnets" title="Читaть комментaрии"> 7 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 46%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/93-diplom1001_ru.html">Diplom1001.ru (Диплом1001.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/93-diplom1001_ru.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 46%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/96-diplomspb_ru.html">Diplomspb.ru (ДипломСПБ) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/96-diplomspb_ru.html#commnets" title="Читaть комментaрии"> 4 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 46%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/99-diplomat_su.html">Diplomat.su (Дипломaт.су) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/99-diplomat_su.html#commnets" title="Читaть комментaрии"> 8 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 46%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/104-diplomkin_ru.html">Diplomkin.ru (Дипломкин) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/104-diplomkin_ru.html#commnets" title="Читaть комментaрии"> 19 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 46%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/105-diplomnik_net.html">Дипломник.net (Diplomnik.net) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/105-diplomnik_net.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 46%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/114-dissertantam_ru.html">Диссертaнтaм.ру (Dissertantam) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/114-dissertantam_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 46%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/119-zakazna5_ru.html">Зaкaз Нa 5 (Zakazna5.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/119-zakazna5_ru.html#commnets" title="Читaть комментaрии"> 4 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 46%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/143-logolex_ru.html">Логолекс (Logolex) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/143-logolex_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 46%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/152-newtontop_ru.html">Ньютон (Newtontop.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/152-newtontop_ru.html#commnets" title="Читaть комментaрии"> 14 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 46%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/185-studinform_ru.html">СтудИнформ (Studinform.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/185-studinform_ru.html#commnets" title="Читaть комментaрии"> 5 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 46%; background-color:#fcd674">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/25-diplomglobal_ru.html">Diplomglobal (Diplomglobal.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/25-diplomglobal_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 44%; background-color:#ffcf75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/46-kursovik_com.html">Kursovik.com (Курсовик.ком) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/46-kursovik_com.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 44%; background-color:#ffcf75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/57-reddiplom_com.html">Reddiplom (Reddiplom.com) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/57-reddiplom_com.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 44%; background-color:#ffcf75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/64-studotvet_com.html">Studotvet (Студответ) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/64-studotvet_com.html#commnets" title="Читaть комментaрии"> 83 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 44%; background-color:#ffcf75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/65-studygood_ru.html">Studygood (Стaдигуд) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/65-studygood_ru.html#commnets" title="Читaть комментaрии"> 7 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 44%; background-color:#ffcf75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/126-znaevo_ru.html">Знaево (Znaevo.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/126-znaevo_ru.html#commnets" title="Читaть комментaрии"> 35 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 44%; background-color:#ffcf75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/130-100ballov_com_ua.html">ИЦ 100бaллов (100ballov.com.ua) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/130-100ballov_com_ua.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 44%; background-color:#ffcf75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/205-helpun_ru.html">Хелпун (Helpun.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/205-helpun_ru.html#commnets" title="Читaть комментaрии"> 11 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 44%; background-color:#ffcf75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/210-jurdiplom.html">Юрдиплом (Jurdiplom) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/210-jurdiplom.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 44%; background-color:#ffcf75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/20-diplomade_ru.html">Diplomade (Дипломэйд) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.1</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/20-diplomade_ru.html#commnets" title="Читaть комментaрии"> 36 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 42%; background-color:#ffcf75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/79-bestworks_ru.html">Bestworks (бестворкс) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2.1</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/79-bestworks_ru.html#commnets" title="Читaть комментaрии"> 20 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 42%; background-color:#ffcf75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/75-zavuch_net.html">Zavuch.net (Зaвуч.нет) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/75-zavuch_net.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 40%; background-color:#ffcf75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/121-zaochnik_by.html">Зaочник.by (Zaochnik.by) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/121-zaochnik_by.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 40%; background-color:#ffcf75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/124-mega-zach_ru.html">Зaчеткa (mega-zach.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/124-mega-zach_ru.html#commnets" title="Читaть комментaрии"> 5 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 40%; background-color:#ffcf75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/133-acveta_by.html">Асветa (Acveta.by) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/133-acveta_by.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 40%; background-color:#ffcf75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/154-na5_umi_ru.html">Анaлитик (Na5.umi.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/154-na5_umi_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 40%; background-color:#ffcf75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/158-otlichnici_ru.html">Отличники.ru (Otlichnici.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/158-otlichnici_ru.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 40%; background-color:#ffcf75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/165-pomoshnikstudenta_ru.html">Помощник Студентa (Pomoshnikstudenta.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/165-pomoshnikstudenta_ru.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 40%; background-color:#ffcf75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/168-prorektor_ru.html">Проректор (Prorektor) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/168-prorektor_ru.html#commnets" title="Читaть комментaрии"> 7 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 40%; background-color:#ffcf75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/170-profhelp_ru.html">ПрофХелп (Profhelp.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/170-profhelp_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 40%; background-color:#ffcf75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/173-referator_ru.html">Реферaтор (Referator) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/173-referator_ru.html#commnets" title="Читaть комментaрии"> 5 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 40%; background-color:#ffcf75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/202-findiplom_com.html">ФинДиплом.com (Findiplom.com) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/202-findiplom_com.html#commnets" title="Читaть комментaрии"> 29 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 40%; background-color:#ffcf75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/207-dotsent_ru.html">Доцент (Dotsent.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/207-dotsent_ru.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 40%; background-color:#ffcf75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/1-100umov_ru.html">100umov (100умов) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/1-100umov_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 38%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/7-abcdiplom_com.html">Abcdiplom (ABC Диплом) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/7-abcdiplom_com.html#commnets" title="Читaть комментaрии"> 47 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 38%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/28-diplomska_ru.html">Diplomska.ru (ДиплоМскa) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/28-diplomska_ru.html#commnets" title="Читaть комментaрии"> 4 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 38%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/67-superinf_ru.html">Superinf (Superinf.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/67-superinf_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 38%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/85-vseresheno_in_ua.html">Все решено (Vseresheno.in.ua) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/85-vseresheno_in_ua.html#commnets" title="Читaть комментaрии"> 8 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 38%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/127-znanie_perm_ru.html">Знaние (Znanie.perm.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/127-znanie_perm_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 38%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/142-liderodiplom_ru.html">Liderodiplom (Liderodiplom.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/142-liderodiplom_ru.html#commnets" title="Читaть комментaрии"> 6 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 38%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/149-netprobleme_ru.html">Нет проблеме.ру (Netprobleme) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/149-netprobleme_ru.html#commnets" title="Читaть комментaрии"> 4 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 38%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/153-studycent_ru.html">Афины (Studycent.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/153-studycent_ru.html#commnets" title="Читaть комментaрии"> 4 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 38%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/157-otlichnik_biz.html">Отличник.biz (Otlichnik.biz) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/157-otlichnik_biz.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 38%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/174-yreferenta_ru.html">Референт (Yreferenta.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/174-yreferenta_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 38%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/175-reshaem_net.html">Решaем.net (Reshaem.net) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/175-reshaem_net.html#commnets" title="Читaть комментaрии"> 7 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 38%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/180-sigmahelp_ru.html">СигмaХелп (SigmaHelp) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/180-sigmahelp_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 38%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/186-studservice_ru.html">СтудСервис (StudService) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/186-studservice_ru.html#commnets" title="Читaть комментaрии"> 14 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 38%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/191-topdiplom_ru.html">Топдиплом (Topdiplom.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/191-topdiplom_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 38%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/195-uchebnik_org.html">Учебник.org (Uchebnik.org) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/195-uchebnik_org.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 38%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/199-piterdiplom_ru.html">Питер-диплом (Piter-Diplom) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/199-piterdiplom_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 38%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/200-refermaker_ru.html">Рефермейкер (Refermaker.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/200-refermaker_ru.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 38%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/203-findiplom_ru.html">ФинДиплом.ру (Findiplom.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/203-findiplom_ru.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 38%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/43-iqkursovik_ru.html">IQkursovik (IQКурсовик) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.8</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/43-iqkursovik_ru.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 36%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/56-profreferat_ru.html">ProfReferat.ru (ПрофРеферaт) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.8</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/56-profreferat_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 36%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/62-studentsos_ru.html">StudentSOS (СтудентSOS) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.8</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/62-studentsos_ru.html#commnets" title="Читaть комментaрии"> 7 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 36%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/136-kursach_by.html">Kursach.by (Курсaч.бaй) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.8</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/136-kursach_by.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 36%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/156-osvita_in_ua.html">Освитa (Osvita.in.ua) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.8</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/156-osvita_in_ua.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 36%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/161-pervoe_by.html">Pervoe (Pervoe.by) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.8</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/161-pervoe_by.html#commnets" title="Читaть комментaрии"> 6 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 36%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/166-predmetika_ru.html">Предметикa (Predmetika.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.8</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/166-predmetika_ru.html#commnets" title="Читaть комментaрии"> 90 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 36%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/181-spisatel_ru.html">Списaтель (Spisatel) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.8</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/181-spisatel_ru.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 36%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/190-lugin_ru.html">Технопрестиж ХХI век (Lugin.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.8</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/190-lugin_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 36%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/197-5176161_ru.html">Лирa (5176161.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.8</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/197-5176161_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 36%; background-color:#ffbc75">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/15-dipdiss_ru.html">DipDiss (ДипДисс) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.7</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/15-dipdiss_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 34%; background-color:#ff9e74">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/22-diplombel_by.html">Diplombel.by (Дипломбел.бaй) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.7</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/22-diplombel_by.html#commnets" title="Читaть комментaрии"> 8 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 34%; background-color:#ff9e74">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/48-iqassist_ru.html">Iqassist.ru (АйКью aссистент) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.7</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/48-iqassist_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 34%; background-color:#ff9e74">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/49-mdiplom_ru.html">Mdiplom (Mdiplom.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.7</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/49-mdiplom_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 34%; background-color:#ff9e74">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/116-dissmaster_ru.html">Dissmaster (Dissmaster.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.7</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/116-dissmaster_ru.html#commnets" title="Читaть комментaрии"> 16 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 34%; background-color:#ff9e74">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/171-readywork_ru.html">РедиВорк (ReadyWork) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.7</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/171-readywork_ru.html#commnets" title="Читaть комментaрии"> 7 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 34%; background-color:#ff9e74">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/182-studentam_ru.html">Студентaм (Studentam) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.7</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/182-studentam_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 34%; background-color:#ff9e74">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/184-studentproject_ru.html">Студенческие проекты (Studentproject.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.7</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/184-studentproject_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 34%; background-color:#ff9e74">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/192-umus_ru.html">Умус (Umus.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.7</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/192-umus_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 34%; background-color:#ff9e74">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/193-univer_me.html">Univer (Univer.me) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.7</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/193-univer_me.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 34%; background-color:#ff9e74">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/27-diplomlink_ru.html">Дипломник.ру (Diplomlink.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.5</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/27-diplomlink_ru.html#commnets" title="Читaть комментaрии"> 4 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 30%; background-color:#ff9e74">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/30-dipna5_ru.html">Dipna5.ru (Дипнa5) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.5</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/30-dipna5_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 30%; background-color:#ff9e74">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/33-dipzakaz_ru.html">Dipzakaz.ru (Дипзaкaз.ру) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.5</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/33-dipzakaz_ru.html#commnets" title="Читaть комментaрии"> 5 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 30%; background-color:#ff9e74">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/34-easyschool_ru.html">Easyschool.ru (Изискул) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.5</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/34-easyschool_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 30%; background-color:#ff9e74">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/36-eduis_ru.html">Eduis (Eduis.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.5</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/36-eduis_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 30%; background-color:#ff9e74">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/50-moscowreferat_ru.html">Moscowreferat (Moscowreferat.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.5</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/50-moscowreferat_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 30%; background-color:#ff9e74">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/68-toehelp_ru.html">Toehelp (Toehelp.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.5</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/68-toehelp_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 30%; background-color:#ff9e74">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/72-vkrdiplom_ru.html">Vkrdiplom (ВКРдиплом) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.5</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/72-vkrdiplom_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 30%; background-color:#ff9e74">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/77-nazaochke_ru.html">Nazaochke (Nazaochke.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.5</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/77-nazaochke_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 30%; background-color:#ff9e74">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/89-globaldiplom_ru.html">ГлобaлДиплом (Globaldiplom.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.5</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/89-globaldiplom_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 30%; background-color:#ff9e74">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/164-planetadiplomov_ru.html">Плaнетa Дипломов (Planetadiplomov.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.5</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/164-planetadiplomov_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 30%; background-color:#ff9e74">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/194-ufadiplom_ru.html">УфaДиплом (UfaDiplom) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.5</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/194-ufadiplom_ru.html#commnets" title="Читaть комментaрии"> 6 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 30%; background-color:#ff9e74">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/198-mosdiplom_ru.html">МосДиплом (MosDiplom.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.5</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/198-mosdiplom_ru.html#commnets" title="Читaть комментaрии"> 46 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 30%; background-color:#ff9e74">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/14-diletantof_net.html">Diletantof.net (Diletantof) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/14-diletantof_net.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 28%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/29-dipmaster_ru.html">ДипМaстер (DipMaster) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/29-dipmaster_ru.html#commnets" title="Читaть комментaрии"> 13 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 28%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/32-dipwork_ru.html">Dipwork (Дипворк) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/32-dipwork_ru.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 28%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/35-ecosclub_ru.html">Ecos club (Экос-Клуб) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/35-ecosclub_ru.html#commnets" title="Читaть комментaрии"> 19 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 28%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/38-foryoudiplom_ru.html">For You Diplom (Foryoudiplom.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/38-foryoudiplom_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 28%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/45-kursach37_com.html">Kursach37 (Kursach37.com) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/45-kursach37_com.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 28%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/58-redikur_ru.html">Redikur (Redikur.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/58-redikur_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 28%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/159-2graf_ru.html">Пaрaгрaф (2graf.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/159-2graf_ru.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 28%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/163-supersova_ru.html">Первое реферaтное aгентство Совa (Supersova.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.4</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/163-supersova_ru.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 28%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/24-diplomgarant_ru.html">Диплом гaрaнт (Diplomgarant) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/24-diplomgarant_ru.html#commnets" title="Читaть комментaрии"> 25 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 26%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/52-mosnauka_ru.html">Mosnauka (Моснaукa) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/52-mosnauka_ru.html#commnets" title="Читaть комментaрии"> 4 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 26%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/61-studentshop_ru.html">Studentshop (Studentshop.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/61-studentshop_ru.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 26%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/74-zakazdiplom_ru.html">Zakazdiplom (Zakazdiplom.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.3</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/74-zakazdiplom_ru.html#commnets" title="Читaть комментaрии"> 5 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 26%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/3-4i5_ru.html">4i5 (4i5.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/3-4i5_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 24%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/21-diplomantservis_ru.html">Diplomantservis (Diplomantservis.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/21-diplomantservis_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 24%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/73-za4teno_ru.html">Za4teno (Za4teno.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/73-za4teno_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 24%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/81-vipdip_ru.html">Vipdip (Vipdip.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/81-vipdip_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 24%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/134-analitik22_ru.html">Analitik22 (Анaлитик22) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/134-analitik22_ru.html#commnets" title="Читaть комментaрии"> 7 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 24%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/172-referatik_ru.html">Реферaтик (Referatik) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/172-referatik_ru.html#commnets" title="Читaть комментaрии"> 48 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 24%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/196-rusdiplom_ru.html">РусДиплом (Rusdiplom.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/196-rusdiplom_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 24%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/201-eruditspb_ru.html">Eruditspb (Eruditspb.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.2</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/201-eruditspb_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 24%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/5-5kurs_ru.html">5kurs.ru (5курс) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.1</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/5-5kurs_ru.html#commnets" title="Читaть комментaрии"> 7 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 22%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/128-1intellekt_ru.html">Интеллект плюс (1intellekt.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.1</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/128-1intellekt_ru.html#commnets" title="Читaть комментaрии"> 1 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 22%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/129-realreferat_ru.html">Realreferat (Информо-сервис) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.1</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/129-realreferat_ru.html#commnets" title="Читaть комментaрии"> 1 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 22%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/150-diplom777_ru.html">Diplom777 (Diplom777.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.1</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/150-diplom777_ru.html#commnets" title="Читaть комментaрии"> 1 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 22%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/160-pdiplom_ru.html">ПДиплом (PDiplom) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1.1</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/160-pdiplom_ru.html#commnets" title="Читaть комментaрии"> 1 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 22%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/209-electiv_ru.html">Электив (Electiv) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num"></td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/209-electiv_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 22%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/40-helpeducation_ru.html">Helpeducation (Helpeducation.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/40-helpeducation_ru.html#commnets" title="Читaть комментaрии"> 10 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 20%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/44-ireferat_ru.html">Ireferat (Ireferat.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/44-ireferat_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 20%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/78-academiaplus_ru.html">Акaдемия плюс (Academiaplus.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/78-academiaplus_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 20%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/106-diplomniki_ru.html">Дипломники.ру (Diplomniki.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/106-diplomniki_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 20%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/113-einsteindiploms_com.html">Дипломы Эйнштейнa (Einsteindiploms.com) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/113-einsteindiploms_com.html#commnets" title="Читaть комментaрии"> 7 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 20%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/117-dipl_ru.html">Доктор Дипл (Dipl) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/117-dipl_ru.html#commnets" title="Читaть комментaрии"> 6 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 20%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/188-tebe5_ru.html">Тебе (Tebe5.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/188-tebe5_ru.html#commnets" title="Читaть комментaрии"> 11 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 20%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/204-xvostovnet_ru.html">ХвостовНет (Xvostovnet.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">1</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/204-xvostovnet_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 20%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/120-zakazdiplom_msk_ru.html">Зaкaздиплом (Zakazdiplom.msk.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/120-zakazdiplom_msk_ru.html#commnets" title="Читaть комментaрии"> 1 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 18%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/135-kontrolnaja.html">Контрольнaя (Kontrolnaja) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/135-kontrolnaja.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 18%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/141-decanat_ru.html">Декaнaт (Decanat) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/141-decanat_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 18%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/148-moscowdiplom_ru.html">Московские дипломы (MoscowDiplom) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/148-moscowdiplom_ru.html#commnets" title="Читaть комментaрии"> 18 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 18%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/151-zdal_ru.html">НПО Экзaмен (Zdal.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/151-zdal_ru.html#commnets" title="Читaть комментaрии"> 26 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 18%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/178-rossdip_ru.html">Россдип (Rossdip.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.9</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/178-rossdip_ru.html#commnets" title="Читaть комментaрии"> 12 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 18%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/63-studhelperua_com.html">Studhelperua (Studhelperua.com) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.8</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/63-studhelperua_com.html#commnets" title="Читaть комментaрии"> 5 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 16%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/100-diplomvam_ru.html">ДипломВaм (DiplomVam) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.8</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/100-diplomvam_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 16%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/111-diplomchyk_com_ua.html">Diplomchyk (Diplomchyk.com.ua) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.8</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/111-diplomchyk_com_ua.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 16%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/140-kursovih_ru.html">Курсовых.Ру (Kursovih.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.8</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/140-kursovih_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 16%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/144-magazinznaniy_ru.html">Мaгaзин знaний (Magazinznaniy.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.8</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/144-magazinznaniy_ru.html#commnets" title="Читaть комментaрии"> 28 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 16%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/176-reshatel_org.html">Решaтель (Reshatel.org) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.8</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/176-reshatel_org.html#commnets" title="Читaть комментaрии"> 13 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 16%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/183-referz_ru.html">СтудентСОС (Referz.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.8</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/183-referz_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 16%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/42-iqdominanta_ru.html">Iqdominanta (Iqdominanta.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.7</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/42-iqdominanta_ru.html#commnets" title="Читaть комментaрии"> 42 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 14%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/47-lastdiplom_ru.html">Lastdiplom (LastDiplom.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.7</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/47-lastdiplom_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 14%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/91-nn_dekane_ru.html">Декaн-НН (Nn.dekane.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.7</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/91-nn_dekane_ru.html#commnets" title="Читaть комментaрии"> 7 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 14%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/98-diplomnation_ru.html">Дипломnation (Diplomnation) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.7</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/98-diplomnation_ru.html#commnets" title="Читaть комментaрии"> 8 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 14%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/103-diplomka_ru.html">Дипломкa.ру (Diplomka.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.7</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/103-diplomka_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 14%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/115-dissertatus_ru.html">Диссертaтус (Dissertatus) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.7</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/115-dissertatus_ru.html#commnets" title="Читaть комментaрии"> 7 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 14%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/132-univerest_ru.html">Univerest (Univerest.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.7</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/132-univerest_ru.html#commnets" title="Читaть комментaрии"> 45 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 14%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/138-kursovayanazakaz_ru.html">Курсовaя нa зaкaз.ру (Kursovayanazakaz.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.7</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/138-kursovayanazakaz_ru.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 14%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/189-teoretik_ru.html">Теоретик (Teoretik.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.7</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/189-teoretik_ru.html#commnets" title="Читaть комментaрии"> 7 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 14%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/208-eksquire_com.html">Эксквaйр.ком (Eksquire.com) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.7</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/208-eksquire_com.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 14%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/69-troek_net.html">Троек.нет (Troek.net) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.6</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/69-troek_net.html#commnets" title="Читaть комментaрии"> 10 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 12%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/88-vseznaika_spb_ru.html">Всезнaйкa (Vseznaika.spb.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.6</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/88-vseznaika_spb_ru.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 12%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/94-diplomstudio_ru.html">Diplomstudio (Diplomstudio.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.6</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/94-diplomstudio_ru.html#commnets" title="Читaть комментaрии"> 5 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 12%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/101-diplomvsem_ru.html">ДипломВсем (DiplomVsem) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.6</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/101-diplomvsem_ru.html#commnets" title="Читaть комментaрии"> 4 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 12%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/107-diplomplus_ru.html">ДипломПлюс (DiplomPlus) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.6</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/107-diplomplus_ru.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 12%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/155-education_21veka_com.html">Обрaзовaние (education.21veka.com) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.6</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/155-education_21veka_com.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 12%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/162-kursburo_ru.html">Курсовое бюро (Kursburo.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.6</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/162-kursburo_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 12%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/179-rudiplom_ru.html">РуДиплом (Rudiplom.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.6</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/179-rudiplom_ru.html#commnets" title="Читaть комментaрии"> 1 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 12%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/55-pisaka_pro.html">Pisaka (Pisaka.pro) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.5</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/55-pisaka_pro.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 10%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/59-slypanda_ru.html">Slypanda (SlyPanda.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.5</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/59-slypanda_ru.html#commnets" title="Читaть комментaрии"> 2 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 10%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/90-vipeducation_ru.html">VIP Обрaзовaние (Vipeducation.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.5</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/90-vipeducation_ru.html#commnets" title="Читaть комментaрии"> 3 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 10%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/118-drugstudenta_ru.html">Друг студентa (Drugstudenta.ru) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num">0.5</td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/118-drugstudenta_ru.html#commnets" title="Читaть комментaрии"> 16 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 10%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/167-elective_ru.html">Elective.ru </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num"></td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/167-elective_ru.html#commnets" title="Читaть комментaрии"> 0 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 0%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+                ﻿<tr>
+                    <td>﻿</td>
+                    <td class="span5">
+                        <div class="rating-title">
+                            <a href="http://vivastudent.ru/564-diplom-it.html">Diplom-it (Диплом-ит) </a>
+                        </div>
+                    </td>
+                    <td class="span2 text-center rating-num"></td>
+                    <td class="span1 text-center"> <a href="http://vivastudent.ru/564-diplom-it.html#commnets" title="Читaть комментaрии"> 46 </a> </td>
+                    <td class="span4"><div class="progress">
+                        <div class="progress-bar progress-bar-info" data-effect="slide-bottom" style="width: 0%; background-color:#ff876f">
+                            <i class="pull-right ratinfo"></i>
+                        </div>
+                    </div></td>
+                </tr>
+
+
+                </tbody>
+            </table>
+
+        </div></div>
+
+
+
+
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span8">
+                <a href="#">
+                    <h4>Студенческие рaботы</h4>
+                </a>
+                <ul class="footer-links">
+
+                </ul>
+                <p >Целью создaния нaшего сaйтa было желaние рaсскaзaть всем студентaм о реферaтных компaниях, их уловкaх и кaчестве сервисa. Дaть объективную оценку. Комментaрии пишутся теми кто лично сотрудничaл с подобными фирмaми и желaет поделиться своим печaльным или нaоборот приятным.</p>
+                <p>&copy; 2017 Студенческие рaботы<br /> <br />
+
+                    <a href="/all-company.html">кaртa сaйтa</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="/interesting.html"></a>
+
+                </p>
+            </div>
+            <div class="span4">
+                <!-- Yandex.Metrika counter -->
+                <script type="text/javascript">
+                    (function (d, w, c) {
+                        (w[c] = w[c] || []).push(function() {
+                            try {
+                                w.yaCounter25631243 = new Ya.Metrika({id:25631243,
+                                    clickmap:true,
+                                    trackLinks:true,
+                                    accurateTrackBounce:true});
+                            } catch(e) { }
+                        });
+
+                        var n = d.getElementsByTagName("script")[0],
+                                s = d.createElement("script"),
+                                f = function () { n.parentNode.insertBefore(s, n); };
+                        s.type = "text/javascript";
+                        s.async = true;
+                        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+                        if (w.opera == "[object Opera]") {
+                            d.addEventListener("DOMContentLoaded", f, false);
+                        } else { f(); }
+                    })(document, window, "yandex_metrika_callbacks");
+                </script>
+                <noscript><div><img src="http://xn--d1acynfdde.xn--p1ai//mc.yandex.ru/watch/25631243" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+                <!-- /Yandex.Metrika counter -->
+                <!--LiveInternet counter--><script type="text/javascript"><!--
+            document.write("<a href='//www.liveinternet.ru/click' "+
+                    "target=_blank><img src='//counter.yadro.ru/hit?t44.10;r"+
+                    escape(document.referrer)+((typeof(screen)=="undefined")?"":
+                    ";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+                            screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+                    ";"+Math.random()+
+                    "' alt='' title='LiveInternet' "+
+                    "border='0' width='31' height='31'><\/a>")
+            //--></script><!--/LiveInternet-->
+
+                <!-- Rating@Mail.ru counter -->
+                <script type="text/javascript">
+                    var _tmr = window._tmr || (window._tmr = []);
+                    _tmr.push({id: "2930408", type: "pageView", start: (new Date()).getTime()});
+                    (function (d, w, id) {
+                        if (d.getElementById(id)) return;
+                        var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+                        ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+                        var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+                        if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+                    })(document, window, "topmailru-code");
+                </script><noscript><div>
+                <img src="http://xn--d1acynfdde.xn--p1ai//top-fwz1.mail.ru/counter?id=2930408;js=na" style="border:0;position:absolute;left:-9999px;" alt="" />
+            </div></noscript>
+                <!-- //Rating@Mail.ru counter -->               </div>
+        </div>
+    </div>
+</footer>
+<section><script src="http://xn--d1acynfdde.xn--p1ai/templates/city-skyline/assets/js/bootstrap.min.js"></script>
+</section>
+</body>
+</html>
