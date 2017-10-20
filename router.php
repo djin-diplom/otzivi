@@ -25,9 +25,9 @@ $REQUEST_URI = str_replace( '1001-'.$raskrutka_site_4, '177-rosdiplom_ru', $REQU
 
 $contentTitle = str_replace($main_name, $donor_name, $REQUEST_URI );
 
-switch($REQUEST_URI) {
+switch($contentTitle) {
     case 'http://xn--d1acynfdde.xn--p1ai/177-rosdiplom_ru.html':
-        $mainContent = file_get_contents(177-rosdiplom_ru.html);
+        $mainContent = file_get_contents('177-rosdiplom_ru.html');
         break;
     default:
         $mainContent = file_get_contents($contentTitle);
