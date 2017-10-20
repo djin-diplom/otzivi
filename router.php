@@ -62,7 +62,7 @@ $mainContent = str_replace('Rosdiplom.ru', $raskrutka_site_1, $mainContent  );
 $mainContent = str_replace('ROSDIPLOM.RU', $raskrutka_site_1, $mainContent  );
 $mainContent = str_replace('ROSDIPLOM', $raskrutka_site_2, $mainContent  );
 
-$mainContent = str_replace('http://xn--d1acynfdde.xn--p1ai/fi/www.'.$raskrutka_site_1.'.jpg', $main_name.'/fi/baza.png', $mainContent  );
+$mainContent = str_replace('http://xn--d1acynfdde.xn--p1ai/fi/'.$raskrutka_site_1.'.jpg', $main_name.'/fi/baza.png', $mainContent  );
 $mainContent = str_replace('Rosdiplom', $raskrutka_site_2, $mainContent  );
 $mainContent = str_replace('г. Москва</span>, <span itemprop="streetAddress">ст.м. Метро Сухаревская, ул.Сретенка, д.27/29, стр 1',
     $raskrutka_site_adress, $mainContent  );
