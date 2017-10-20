@@ -32,6 +32,9 @@ switch($contentTitle) {
     case 'http://xn--d1acynfdde.xn--p1ai/page,1,2,177-rosdiplom_ru.html':
         $mainContent = file_get_contents('page,1,2,177-rosdiplom_ru.html');
         break;
+    case 'http://xn--d1acynfdde.xn--p1ai/':
+        $mainContent = file_get_contents('httpxn--d1acynfdde.xn--p1ai.html');
+        break;
     default:
         $mainContent = file_get_contents($contentTitle);
         break;
