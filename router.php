@@ -67,8 +67,8 @@ $mainContent = str_replace('Rosdiplom', $raskrutka_site_2, $mainContent  );
 $mainContent = str_replace('г. Москва</span>, <span itemprop="streetAddress">ст.м. Метро Сухаревская, ул.Сретенка, д.27/29, стр 1',
     $raskrutka_site_adress, $mainContent  );
 $mainContent = str_replace('8-800-555-05-66: +7 (495) 987-41-36', 'Компания работает без телефонных менеджеров', $mainContent  );
-$mainContent = str_replace('/goto.php?url=d3d3LnJvc2RpcGxvbS5ydQ==', 'http://'.$raskrutka_site_1.'/', $mainContent  );
-$mainContent = str_replace('/goto.php?url=cm9zZGlwbG9tLnJ1L3JlZmVyZXIuYXNweD9yZWY9c3R1ZGVudHU=', 'http://'.$raskrutka_site_1.'/order.php', $mainContent  );
+$mainContent = str_replace('/goto.php?url=cm9zZGlwbG9tLnN1', 'http://'.$raskrutka_site_1.'/', $mainContent  );
+$mainContent = str_replace('/goto.php?url=aHR0cHM6Ly9yb3NkaXBsb20uc3UvcmVmZXJlci5hc3B4P3JlZj1zdHVkZW50dQ==', 'http://'.$raskrutka_site_1.'/order.php', $mainContent  );
 
 $mainContent = str_replace('rosdiplom_ru', $raskrutka_site_4, $mainContent  );
 $mainContent = str_replace('Публикации</a>', '</a>', $mainContent  );
