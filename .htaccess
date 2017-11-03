@@ -1,5 +1,5 @@
-Redirect 301 /177-rosdiplom.html http://vivastudent.ru/
-Redirect 301 /177-bazaznanij_com.html http://studrabota.com/1001-bazaznanij_com.html
+Redirect 301 /177-rosdiplom.html http://vivamagister.ru
+Redirect 301 /177-bazazachet_ru.html http://studrabota.com/1001-bazazachet_ru.html
 
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
