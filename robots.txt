@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /1001-basisznanij_ru.html
+Allow: /1001-vivazachet_ru.html
 Disallow: /
-Host: viva-magisters.ru
+Host: znaniumbaza.ru
